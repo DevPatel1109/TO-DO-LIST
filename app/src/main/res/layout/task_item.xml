@@ -28,18 +28,17 @@
         android:id="@+id/edit"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:background="#040403"
         android:padding="8dp"
-        android:src="@drawable/edit"
-        android:background="#FDE300"
-        />
+        android:src="@drawable/edit" />
 
     <ImageView
         android:id="@+id/delete"
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:background="#000000"
         android:padding="8dp"
-        android:src="@drawable/delete"
-        android:background="#FD0015"
-        android:layout_marginLeft="8dp"/>
+        android:src="@drawable/delete" />
 
 </LinearLayout>
